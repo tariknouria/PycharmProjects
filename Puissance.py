@@ -22,7 +22,7 @@ def puissance3(x,n):
         x *= x
         n //= 2
     return p
-
+#test
 def puissancek(x,n,p=1):
     if n == 0:
         return p
@@ -33,3 +33,4 @@ def puissancek(x,n,p=1):
 
 if __name__ =="__main__":
     print(puissancek(2,3))
+     print (puissancek(2,3))
